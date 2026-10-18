@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OpencodeSilver/OpencodeSilver/main/assets/logo.png" width="96" height="96" alt="OpencodeSilver Logo" style="border-radius: 20px;" />
+  <img src="assets/logo.png" width="128" height="128" alt="opencode-claude Logo" style="border-radius: 24px;" />
 </p>
 
 <h1 align="center">@opencodesilver/opencode-claude</h1>
