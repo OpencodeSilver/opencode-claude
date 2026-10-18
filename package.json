@@ -1,0 +1,50 @@
+{
+  "name": "@opencodesilver/opencode-claude",
+  "version": "3.0.0",
+  "description": "OpencodeSilver integration plugin for Claude Code CLI (Claude Pro/Max without API keys)",
+  "keywords": [
+    "opencode",
+    "opencodesilver",
+    "claude",
+    "claude-code",
+    "anthropic",
+    "ai",
+    "cli",
+    "plugin",
+    "provider"
+  ],
+  "author": "Ahmed (GEMTM)",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpencodeSilver/opencode-claude.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpencodeSilver/opencode-claude/issues"
+  },
+  "homepage": "https://github.com/OpencodeSilver/opencode-claude#readme",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
